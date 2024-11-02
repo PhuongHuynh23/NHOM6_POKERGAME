@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="brass-fanfare-with-timpani-and-winchimes-reverberated-146260-VEED.wav" />
+    <None Remove="mix-3m41s-audio-joinercom_0vmZcQv6 %281%29 %281%29.wav" />
+    <None Remove="mix-3m41s-audio-joinercom_0vmZcQv6.wav" />
+    <None Remove="Wallpaper%28chosic-Trimmed by FlexClip %281%29 %281%29.wav" />
+    <None Remove="Wallpaper%28chosic-Trimmed by FlexClip.wav" />
+    <None Remove="Wallpaper%28chosic.com%29.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="brass-fanfare-with-timpani-and-winchimes-reverberated-146260-VEED.wav" />
+    <EmbeddedResource Include="mix-3m41s-audio-joinercom_0vmZcQv6 (1) (1).wav" />
+     <EmbeddedResource Include="Wallpaper(chosic-Trimmed by FlexClip (1) (1).wav" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
